@@ -20,7 +20,9 @@ function DoctorComponent() {
     nombre: '',
     cedula: '',
     contacto: '',
+    
     domicilio: ''
+    
   });
 
   const [loading, setLoading] = useState(false);
