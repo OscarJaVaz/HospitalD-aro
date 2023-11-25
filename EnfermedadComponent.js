@@ -22,7 +22,7 @@ function EnfermedadComponent() {
   });
 
   const [loading, setLoading] = useState(false);
-
+//funcion para obtener datos
   const fnObtenerDatos=async()=>{
     await axios.get('http://127.0.0.1:8000/api/enfermedad',{
       params:{
