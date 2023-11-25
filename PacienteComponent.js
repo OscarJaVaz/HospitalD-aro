@@ -15,7 +15,7 @@ import ButtonGroup from '@mui/material/ButtonGroup';
 
 function PacienteComponent() {
   const location = useLocation();
-
+//parametros que va a llevar el modulo de pacientes
   const [paciente, setPaciente] = useState({
     id: 0,
     nombre: '',
