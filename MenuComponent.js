@@ -14,7 +14,7 @@ import cita from './assets/cita.png';
 import salir from './assets/salir.png';
 function MenuComponent() {
   const location = useLocation();
-
+//funcion para navegar en el menu
   const navigate = useNavigate();
 
   const home = async () => { 
