@@ -14,7 +14,7 @@ import ButtonGroup from '@mui/material/ButtonGroup';
 
 function DoctorComponent() {
   const location = useLocation();
-
+//parametros que tendra doctor
   const [doctor, setDoctor] = useState({
     id: 0,
     nombre: '',
